@@ -50,6 +50,7 @@ debug.sf.latch_unsignaled=1
 persist.hwc.enable_vds=1
 
 # IORap
+iorapd.readahead.enable=true
 ro.iorapd.enable=true
 
 # Media
