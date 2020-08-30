@@ -5,3 +5,7 @@ get_prop(hal_audio_default, oppo_debug_prop);
 
 allow hal_audio_default sysfs:dir { read open };
 allow hal_audio_default default_prop:file { getattr map };
+
+# Dirac
+get_prop(hal_audio_default, dirac_prop)
+set_prop(hal_audio_default, dirac_prop)
