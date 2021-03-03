@@ -49,6 +49,9 @@ debug.sf.enable_hwc_vds=1
 debug.sf.latch_unsignaled=1
 persist.hwc.enable_vds=1
 
+# IORap
+ro.iorapd.enable=true
+
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 ro.media.recorder-max-base-layer-fps=60
