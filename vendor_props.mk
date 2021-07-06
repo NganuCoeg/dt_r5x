@@ -76,6 +76,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.feature.vbat.enable=true \
     vendor.audio.feature.wsa.enable=false
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.media_vol_steps=30 \
+    ro.config.vc_call_vol_steps=11 \
+
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac \
