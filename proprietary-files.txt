@@ -2784,6 +2784,9 @@ vendor/lib/libQSEEComAPI.so
 vendor/lib64/libQSEEComAPI.so
 vendor/lib64/libwvhidl.so
 
+# Charger - From From Redmi/begonia/begonia:11/RP1A.200720.011/21.4.28:user/release-keys
+bin/charger:bin/chargeonlymode|bb74c36cee72b1f2e2c8090eb6f21352eba8e83f
+
 # DRM - Widevine L1 - from ginkgo MIUI V12.0.2.0.QCOMIXM
 vendor/lib64/liboemcrypto.so|4bc107c69108c71b53d8a04c9f4d4e3f7ece18e7
 modem/image/widevine.b00:vendor/firmware/widevine.b00|02440d68e90e2606978d705a6de0aca576be6e66
