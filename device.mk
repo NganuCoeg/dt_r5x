@@ -248,6 +248,7 @@ PRODUCT_COPY_FILES += \
 # Init
 PRODUCT_PACKAGES += \
     fstab.qcom \
+    init.performance_level.rc \
     init.class_main.sh \
     init.oppo.face.rc \
     init.oppo.face.sh \
