@@ -44,6 +44,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.dsi.ant.antradio_library.xml
 
+# ThemePicker
+PRODUCT_PACKAGES += \
+    ThemePicker \
+    messaging
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
