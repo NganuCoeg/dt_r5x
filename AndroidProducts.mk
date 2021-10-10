@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_r5x.mk
+    $(LOCAL_DIR)/banana_r5x.mk
