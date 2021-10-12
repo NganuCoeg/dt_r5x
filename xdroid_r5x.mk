@@ -25,7 +25,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base_system.mk)
 
 # Inherit some common AOSP stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/xdroid/config/common.mk)
 
 # Inherit from r5x device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -37,7 +37,7 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := false
 PRODUCT_BRAND := Realme
 PRODUCT_DEVICE := r5x
 PRODUCT_MANUFACTURER := Realme
-PRODUCT_NAME := aosp_r5x
+PRODUCT_NAME := xdroid_r5x
 PRODUCT_MODEL := Realme 5 Series
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme
