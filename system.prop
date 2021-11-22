@@ -83,6 +83,9 @@ ro.telephony.default_network=22,22
 persist.sys.fflag.override.settings_network_and_internet_v2=true
 telephony.lteOnCdmaDevice=1
 
+# System
+persist.sys.binary_xml=false
+
 # Seamless transfer
 sys.fflag.override.settings_seamless_transfer=true
 
